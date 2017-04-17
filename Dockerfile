@@ -1,5 +1,6 @@
-FROM alpine:3.4
+FROM easypi/alpine-arm
 
+MAINTAINER Nathan Catania <ncatania@juniper.net>
 MAINTAINER Stephen Steiner <ssteiner@juniper.net>
 
 RUN mkdir /source \
